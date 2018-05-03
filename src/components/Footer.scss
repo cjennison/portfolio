@@ -1,0 +1,14 @@
+.Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0 -15px;
+  padding: 0 10px;
+  
+  display: block;
+  text-align: left;
+  
+  .footer-text {
+    display: inline;
+  }
+}
