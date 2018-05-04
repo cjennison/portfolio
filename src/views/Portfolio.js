@@ -31,8 +31,8 @@ class Portfolio extends Component {
             <div className="col-md-8 text-left portfolio-text">
               <p>
                 I was hired in July of 2015 on a contract to work for Promoboxx Inc by Dan Koziak.
-                The project IO was hired for was to assist in a total change of business from a single retailer single brand
-                to one user many brands. This warranted an entirely new UI and the business wanted to use new technology to do so - so we chose AngularJS.
+                The project I was hired for was to assist in a total change of business from a single retailer single brand
+                to one user many brand achitecture. This warranted an entirely new UI and the business wanted to use new technology to do so - so we chose AngularJS.
               </p>
               <p>
                 Over time 2 more engineers were hired to join the project, Brian Cleary from Draft Kings and Joseph Ware from Microsoft.
