@@ -47,7 +47,7 @@ class Home extends Component {
             </div>
             <div className="row">
               <div className="col-md-6 col-md-offset-6 text-left">
-                Full Stack Software Engineer. Lead feature development teams, SCRUM teams, and held technical discussions. Built app.promoboxx.com and architected consumer reporting.
+                Full Stack Software Engineer. Led feature development teams, SCRUM teams, and held technical discussions. Built app.promoboxx.com and architected consumer reporting.
               </div>
             </div>
 
