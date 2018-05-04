@@ -17,7 +17,7 @@ class About extends Component {
               found my interest in Programming under the guidance of my teacher <a href='http://fcts.org/shops/pwd/pwd.html' target='_blank'>Ms. Cynthia Bussey</a>.
             </p>
             <p>
-              <b>On a normal day</b> I like to come home and do a quick workout while trying to not be distracting by my cats, <i>Harley</i> and <i>Dave</i> <br />
+              <b>On a normal day</b> I like to come home and do a quick workout while trying to not be distracted by my cats, <i>Harley</i> and <i>Dave</i> <br />
               <img src={HarleyPicture} width="200px" />&nbsp;<img src={DavePicture} width="200px" />
             </p>
             <p>
