@@ -42,31 +42,31 @@ class Home extends Component {
             <b>Mini Work Experience Resume</b> <br />
 
             <div className="row">
-              <div className="col-md-2 col-md-offset-4 text-right">2015-Present</div>
+              <div className="col-md-2 col-md-offset-1 text-right">2015-Present</div>
               <div className="col-md-4 text-left"><b>Promoboxx</b></div>
             </div>
             <div className="row">
-              <div className="col-md-6 col-md-offset-6 text-left">
+              <div className="col-md-6 col-md-offset-3 text-left">
                 Full Stack Software Engineer. Led feature development teams, SCRUM teams, and held technical discussions. Built app.promoboxx.com and architected consumer reporting.
               </div>
             </div>
 
             <div className="row">
-              <div className="col-md-2 col-md-offset-4 text-right">2013-2015</div>
+              <div className="col-md-2 col-md-offset-1 text-right">2013-2015</div>
               <div className="col-md-4 text-left"><b>USGS</b></div>
             </div>
             <div className="row">
-              <div className="col-md-6 col-md-offset-6 text-left">
+              <div className="col-md-6 col-md-offset-3 text-left">
                 Full Stack Software Engineer. Built GIS Web Applications, attending meetings with state legislators to present projects.
               </div>
             </div>
 
             <div className="row">
-              <div className="col-md-2 col-md-offset-4 text-right">2010-2013</div>
+              <div className="col-md-2 col-md-offset-1 text-right">2010-2013</div>
               <div className="col-md-4 text-left"><b>Hitpoint Studios</b></div>
             </div>
             <div className="row">
-              <div className="col-md-6 col-md-offset-6 text-left">
+              <div className="col-md-6 col-md-offset-3 text-left">
                 Software Engineer. Built brand games in ActionScript for a wide variety of clients.
               </div>
             </div>
