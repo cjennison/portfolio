@@ -31,7 +31,7 @@ class Home extends Component {
             <div className="description">
               <p>
                 My name is Christopher Jennison. I am a professional software engineer with { this.timeSince } of engineering experience. I have worked in many areas including
-                video games, government, and SaaS. I love JavaScript as my favorite programming language wiht Python in close second. I graduated from UMass Amherst <img src={UmassAmherst} width="20px" /> with a Bachelors of Science in Computer Science.
+                video games, government, and SaaS. I love JavaScript as my favorite programming language with Python in close second. I graduated from UMass Amherst <img src={UmassAmherst} width="20px" /> with a Bachelors of Science in Computer Science.
               </p>
             </div>
           </div>
