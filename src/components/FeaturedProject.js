@@ -3,7 +3,6 @@ import './FeaturedProject.scss';
 
 import FeatureImage from '../images/featured_project.png';
 
-
 class FeaturedProject extends Component {
   render() {
     return (

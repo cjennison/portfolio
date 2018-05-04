@@ -2,8 +2,17 @@ import React, { Component } from 'react';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import FeaturedProject from '../components/FeaturedProject';
 import SelfPicture from '../images/personal_picture.jpg';
+import moment from 'moment';
+
+import UmassAmherst from  '../images/umass.png';
 
 class Home extends Component {
+
+  constructor(props) {
+    super(props);
+    this.timeSince = moment([2013, 1, 1]).fromNow(true);
+  }
+
   render() {
     return (
       <div className="Home">
@@ -11,17 +20,60 @@ class Home extends Component {
           <div className="col-md-6 col-md-offset-3">
             <img src={SelfPicture} width="100px" alt="selfie" />
             <div className="social-media">
-              <a href='https://hired-user-uploads.s3.amazonaws.com/candidate_profiles/812653/resumes/1525293552/Jennison_Resume.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIS6XZT6OESTXPSQA%2F20180503%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180503T185453Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=bf5e2002b3ce5c2e5b97f2736cceb01dc541c919e742218fb3e350ad6aba85e3' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={["fas", "file-alt"]} /></a>
+              <a href='/Jennison_Resume.pdf' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={["fas", "file-alt"]} /></a>
               <a href='https://www.linkedin.com/in/christopher-jennison-27223825/' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
               <a href='https://twitter.com/cjenn92' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
             </div>
             <div className="keywords">
-              <span className="word">engineer</span>&nbsp;/&nbsp;
-              <span className="word">leader</span>
+              <span className="word">business focused engineer</span>&nbsp;/&nbsp;
+              <span className="word">future thinking leader</span>
             </div>
             <div className="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p>
+                My name is Christopher Jennison. I am a professional software engineer with { this.timeSince } of engineering experience. I have worked in many areas including
+                video games, government, and SaaS. I love JavaScript as my favorite programming language wiht Python in close second. I graduated from UMass Amherst <img src={UmassAmherst} width="20px" /> with a Bachelors of Science in Computer Science.
+              </p>
             </div>
+          </div>
+        </div>
+
+        <div className="row section">
+          <div className="col-md-6 col-md-offset-3">
+            <b>Mini Work Experience Resume</b> <br />
+
+            <div className="row">
+              <div className="col-md-2 col-md-offset-4 text-right">2015-Present</div>
+              <div className="col-md-4 text-left"><b>Promoboxx</b></div>
+            </div>
+            <div className="row">
+              <div className="col-md-6 col-md-offset-6 text-left">
+                Full Stack Software Engineer. Lead feature development teams, SCRUM teams, and held technical discussions. Built app.promoboxx.com and architected consumer reporting.
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-md-2 col-md-offset-4 text-right">2013-2015</div>
+              <div className="col-md-4 text-left"><b>USGS</b></div>
+            </div>
+            <div className="row">
+              <div className="col-md-6 col-md-offset-6 text-left">
+                Full Stack Software Engineer. Built GIS Web Applications, attending meetings with state legislators to present projects.
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-md-2 col-md-offset-4 text-right">2010-2013</div>
+              <div className="col-md-4 text-left"><b>Hitpoint Studios</b></div>
+            </div>
+            <div className="row">
+              <div className="col-md-6 col-md-offset-6 text-left">
+                Software Engineer. Built brand games in ActionScript for a wide variety of clients.
+              </div>
+            </div>
+
+            <a href='/Jennison_Resume.pdf' target='_blank' rel="noopener noreferrer">
+              Full Resume
+            </a>
           </div>
         </div>
 
