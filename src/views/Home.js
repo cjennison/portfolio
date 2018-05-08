@@ -23,6 +23,7 @@ class Home extends Component {
               <a href='/Jennison_Resume.pdf' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={["fas", "file-alt"]} /></a>
               <a href='https://www.linkedin.com/in/christopher-jennison-27223825/' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
               <a href='https://twitter.com/cjenn92' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+              <a href='https://github.com/cjennison' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={["fab", "github"]} /></a>
             </div>
             <div className="keywords">
               <span className="word">business focused engineer</span>&nbsp;/&nbsp;
