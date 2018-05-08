@@ -44,7 +44,7 @@ class Portfolio extends Component {
                 Social media sharing, advertisement purchasing, and reporting.
               </p>
               <p>
-                Brian, Joseph, Cory, and myself still support the application today along with many other engineers who were hired post launch continuing to build on it and migrate to VueJS 2.X.
+                Brian, Joseph, Corey, and myself still support the application today along with many other engineers who were hired post launch continuing to build on it and migrate to VueJS 2.X.
                 App.promoboxx.com was my proudest achievement at Promoboxx as an application I helped architect from the ground up and
                 getting to work with a team who enjoyed doing the same.
               </p>
